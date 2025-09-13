@@ -2,6 +2,10 @@
 
 A Python script to export Obsidian `.canvas` files into a modern, interactive web format.
 
+<center>
+<img src="https://github.com/TheLaughingCow/ObsidianExporter/blob/main/test.png"/>
+</center>
+
 ## ✨ Features
 
 - **Full export**: Extracts all content from canvas nodes
