@@ -9,13 +9,10 @@ A Python script to export Obsidian `.canvas` files into a modern, interactive we
 ## ✨ Features
 
 - **Full export**: Extracts all content from canvas nodes
-- **Modern web interface**: Responsive design with smooth CSS animations
 - **Interactive search**: Real-time search bar
 - **Rich content support**: Handles attachments and links
-- **Statistics**: Overview of node and connection counts
 - **Quick copy**: Double-click to copy node content
 - **Faithful colors**: Respects exact colors from Obsidian canvas
-- **Dynamic transparency**: Proper background transparency for group nodes
 
 ## 🚀 Installation & Usage
 
