@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"85afdcb5008f849a","type":"group","x":-580,"y":-400,"width":3020,"height":1520,"color":"#4f4dff","label":"THE BREAD RECIPE:"},
+		{"id":"a9a3fe9de07a62e4","type":"group","x":1040,"y":-98,"width":540,"height":478,"color":"1","label":"bread1"},
+		{"id":"436aaf002d8f7aad","type":"group","x":1040,"y":520,"width":640,"height":357,"color":"1","label":"bread2"},
+		{"id":"3e97d7f879f6487e","type":"group","x":-280,"y":-180,"width":300,"height":164,"color":"#dbdbdb","label":"LIST OF INGREDIENTS:        "},
+		{"id":"ae99e4436f3fe74a","type":"group","x":100,"y":-180,"width":300,"height":164,"color":"#dbdbdb","label":"UTENSILS:        "},
+		{"id":"ac53c51ebcfa7d4b","type":"group","x":480,"y":-180,"width":300,"height":164,"color":"#dbdbdb","label":"TIMES :"},
+		{"id":"c84c992027fffa0c","type":"text","text":"```\n- 500g traditional French flour\n- 100g natural sourdough\n- 330g water\n- 9g salt\n- 4g yeast\n```","x":-260,"y":-156,"width":250,"height":120,"color":"#dbdbdb"},
+		{"id":"6bc5bf0214dda85c","type":"text","text":"### **Add & Knead** – Add 4 g yeast, 9 g salt, 100 g starter, knead 6–7 min.","x":-440,"y":260,"width":970,"height":80},
+		{"id":"f57e068f03f04fbd","type":"text","text":"```\n- 1 small mixer or food processor with dough hook\n- 1 thermometer\n- 1 horn\n- 1 pastry cutter\n- 1 bread-slicing blade.\n- 1 water bowl\n- 1 brush\n- 1 kitchen towel\n- 1 baker's oven\n```","x":120,"y":-156,"width":250,"height":120,"color":"#dbdbdb"},
+		{"id":"aec4c9df341c6ed2","type":"text","text":"```\n- Kneading: about 10 minutes\n- Pre-fermentation (autolysis): 1 hour\n- 1st sprouting (pointing): 1 hour\n- Rest (relaxation): 30 minutes\n- 2nd push (priming): approx. 2 hours\n- Baking: 22-23 minutes at 250°C\n```","x":500,"y":-156,"width":250,"height":120,"color":"#dbdbdb"},
+		{"id":"b3b5d3bad783373e","type":"text","text":"### **Shape & Final Rise** – Shape into baguettes, place on cloth, rise 2 h.","x":-440,"y":618,"width":970,"height":80},
+		{"id":"31b2328c072ba28d","type":"text","text":"### **First Fermentation** – Let dough proof 1 h, then divide into 3 balls, rest 30 min.","x":-345,"y":440,"width":970,"height":80},
+		{"id":"e3ea02de8667db19","type":"text","text":"### **Bake** – Create steam in oven, bake 22–23 min at 250 °C.","x":-345,"y":797,"width":970,"height":80},
+		{"id":"f5e917cb13e32a9d","type":"text","text":"### **Mix & Rest** – Mix 500 g flour with 330 g water, knead briefly, rest 1 h (autolyse).","x":-345,"y":80,"width":970,"height":80},
+		{"id":"84dc9410a5a347de","type":"file","file":"Audit/_src/bread01.png","x":1080,"y":-58,"width":460,"height":410},
+		{"id":"53fe9732130ab0d8","type":"file","file":"Audit/_src/bread2.png","x":1080,"y":551,"width":560,"height":300}
+	],
+	"edges":[
+		{"id":"47e6da17a7f94c00","fromNode":"3e97d7f879f6487e","fromSide":"right","toNode":"ae99e4436f3fe74a","toSide":"left"},
+		{"id":"5c0f1134a7838a85","fromNode":"ae99e4436f3fe74a","fromSide":"right","toNode":"ac53c51ebcfa7d4b","toSide":"left"},
+		{"id":"20b87ff38c2a7133","fromNode":"f5e917cb13e32a9d","fromSide":"bottom","toNode":"6bc5bf0214dda85c","toSide":"top","color":"1"},
+		{"id":"bb4550eba1329dce","fromNode":"6bc5bf0214dda85c","fromSide":"bottom","toNode":"31b2328c072ba28d","toSide":"top","color":"1"},
+		{"id":"dc327b07f8bb5d71","fromNode":"31b2328c072ba28d","fromSide":"bottom","toNode":"b3b5d3bad783373e","toSide":"top","color":"1"},
+		{"id":"94c352480e114ef7","fromNode":"b3b5d3bad783373e","fromSide":"bottom","toNode":"e3ea02de8667db19","toSide":"top","color":"1"},
+		{"id":"3acf356bbc1171b8","fromNode":"f5e917cb13e32a9d","fromSide":"right","toNode":"a9a3fe9de07a62e4","toSide":"left","color":"#ffffff"},
+		{"id":"085b5498047c883a","fromNode":"e3ea02de8667db19","fromSide":"right","toNode":"436aaf002d8f7aad","toSide":"left","color":"#ffffff"}
+	]
+}
