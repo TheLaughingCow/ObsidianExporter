@@ -102,4 +102,4 @@ Contributions are welcome! Feel free to:
 
 ---
 
-**Obsidian Canvas Exporter** - Transform your Obsidian canvases into interactive html! 🚀 
+**Obsidian Canvas Exporter** - Transform your Obsidian canvas into interactive html ! 🚀 
